@@ -45,6 +45,8 @@ end
 
 # Development gems (better_errors, quiet_assets, etc.)
 group :development do
+  gem 'web-console', '~> 2.0'
+
   gem 'quiet_assets'
   gem 'better_errors'
   gem 'binding_of_caller'
