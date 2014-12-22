@@ -43,12 +43,17 @@ group :production do
   gem 'rails_12factor'
 end
 
-# Development Helpers (better_errors, quiet_assets, etc.)
+# Development gems (better_errors, quiet_assets, etc.)
 group :development do
   gem 'quiet_assets'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'meta_request'
+end
+
+# Testing gems (Code Climate, etc.)
+group :test do
+  gem 'codeclimate-test-reporter', require: nil
 end
 
 # Nestive allows nested layouts forking application.html.erb

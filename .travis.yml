@@ -1,0 +1,15 @@
+language: ruby
+cache: bundler
+bundler_args: --without production
+rvm:
+  # Cutting-edge Ruby for the time being, this may change in the future.
+  - 2.1.5
+
+before_script:
+  # Create and migrate the database before testing.
+  - bundle exec rake db:create db:migrate
+
+addons:
+  # Configure Code Climate test coverage.
+  code_climate:
+    repo_token: "3317b54eec8e13f2fd318ba9abb9a9b40bc6183abe1f3334e9b4d0f8a65d5d3f"

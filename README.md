@@ -1,5 +1,6 @@
 ## YMS (application)
 
+[![Build Status](https://img.shields.io/travis/raptblue/yms.svg?style=flat-square)](https://travis-ci.org/raptblue/yms)
 [![Code Climate](https://img.shields.io/codeclimate/github/raptblue/yms.svg?style=flat-square)](https://codeclimate.com/github/raptblue/yms)
 [![Test Coverage](https://img.shields.io/codeclimate/coverage/github/raptblue/yms.svg?style=flat-square)](https://codeclimate.com/github/raptblue/yms)
 [![Gemnasium](https://img.shields.io/gemnasium/raptblue/yms.svg?style=flat-square)](https://gemnasium.com/raptblue/yms)
